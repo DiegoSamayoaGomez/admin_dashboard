@@ -148,3 +148,13 @@
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -35px;
 }
+
+.right-container {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(250px, 350px));
+    gap: 15px;
+    justify-content: center;
+
+}
+
+/*40px minmax(200px, 250px) 40px minmax(200px, 250px)*/
