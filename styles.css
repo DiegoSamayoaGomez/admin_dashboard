@@ -99,7 +99,7 @@
     margin-right: 20px;
 }
 
-.icon-text-dashboard {
+.icon-text-sidebar {
     display: grid;
     grid-template-columns: 50px 70px;
     align-items: center;
@@ -107,15 +107,15 @@
     font-weight: bold;
 }
 
-.top-options ul,
-.bottom-options ul {
+.upper-sidebar-options ul,
+.bottom-sidebar-options ul {
     display: grid;
     gap: 10px;
 }
 
 /*MAIN CONTENT*/
 
-.main-content {
+.content {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 25px;
