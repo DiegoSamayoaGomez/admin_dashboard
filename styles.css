@@ -85,9 +85,6 @@
     grid-template-rows: minmax(50px, 100px) repeat(auto-fill, minmax(100px, 200px));
     justify-items: start;
     padding: 5px;
-
-
-
 }
 
 .sidebar ul {
@@ -124,15 +121,12 @@
     padding: 25px;
     background-color: #f2f7fb;
     z-index: -1;
-
-
-
 }
 
 .left-container {
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 500px));
-    grid-template-rows: 40px repeat(3, minmax(100px, 200px));
+    grid-template-rows: 40px repeat(3, minmax(100px, 220px));
     gap: 15px;
     justify-content: center;
 
@@ -144,12 +138,23 @@
 
 .card {
     background-color: white;
-    height: 100%;
-    width: 100%;
     padding: 10px 10px 0px 25px;
     border-left: orange 7px solid;
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -35px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+    
+}
+
+.card-icon {
+    width: 20px;
+    height: 20px;
 }
 
 .tittle-card,
@@ -206,4 +211,3 @@
     align-self: end;
 
 }
-
